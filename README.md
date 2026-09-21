@@ -16,6 +16,8 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers) 
 >
 > 🌍 Also available in [English](https://aiolaola.com/en?utm_source=github&utm_campaign=superpowers) · [日本語](https://aiolaola.com/ja?utm_source=github&utm_campaign=superpowers) · [Español](https://aiolaola.com/es?utm_source=github&utm_campaign=superpowers) · [한국어](https://aiolaola.com/ko?utm_source=github&utm_campaign=superpowers) · [繁體中文](https://aiolaola.com/zh-Hant?utm_source=github&utm_campaign=superpowers)
 
+> 🧠 **新：让 Claude Code / Codex / Cursor / Gemini CLI 不再失忆** → [engram](https://github.com/jnMetaCode/engram)：一条 `npx @jnmetacode/engram install`，自动记住每次会话问过什么、改了哪些文件、最后怎么解决的，下次开会话自动带回（带出处）。**记忆跨工具共享**——Codex 里定的事，Claude Code 也知道。全本地、零依赖、中文友好。
+
 ### 📊 项目规模
 
 | 📦 翻译 Skills | 🇨🇳 中国原创 Skills | 🤖 支持工具 |
