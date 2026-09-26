@@ -26,6 +26,7 @@
     ".codex-plugin/",
     ".opencode/INSTALL.md",
     ".opencode/plugins/",
+    "index.js",
     ".pi/extensions/",
     "CLAUDE.md",
     "GEMINI.md",
