@@ -14,7 +14,7 @@ metadata:
 
 **编写技能就是将测试驱动开发应用于流程文档。**
 
-**个人技能存放在智能体特定的目录中（Claude Code 用 `~/.claude/skills`，Codex 用 `~/.agents/skills/`）**
+**个人技能存放在你所用运行环境的技能目录中**（Claude Code 上是 `~/.claude/skills/`）——其他运行环境的路径见 [codex-tools.md](../using-superpowers/references/codex-tools.md) 或 [gemini-tools.md](../using-superpowers/references/gemini-tools.md)。Codex、Copilot CLI 和 Gemini CLI 也都认 `~/.agents/skills/`，作为跨运行环境的别名。
 
 你编写测试用例（带子智能体的压力场景），观察它们失败（基线行为），编写技能（文档），观察测试通过（智能体遵守规则），然后重构（堵住漏洞）。
 
