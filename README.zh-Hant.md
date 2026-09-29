@@ -52,7 +52,13 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers) 
 </td>
 <td width="75%" valign="middle">
 
-感謝 [88API Token 聚合平台](https://88api.ai/sign-up?aff=MvTX) 贊助本專案！🧠 聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等語言與編程模型；🎨 支援 GPT-Image、Gemini、Grok 等圖片模型；🎬 支援 Seedance、Veo、MiniMax H3、Kling、Grok 等影片模型；🎙️ 提供 Whisper、TTS 等語音能力，涵蓋從文案、出圖、改圖，到影片生成與配音的完整流程。🎁 **新使用者註冊即送體驗額度，可以檢測模型能力，站內有人工客服值守！** 👉 香港正規企業營運，穩定供應，全綠滿血、不降智，並可提供發票。**[立即註冊](https://88api.ai/sign-up?aff=MvTX)**
+[88API Token 聚合平台](https://88api.ai/sign-up?aff=MvTX)<br>
+🧠 聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等語言與編程模型；<br>
+🎨 圖片模型：GPT-Image、Gemini、Grok 等；<br>
+🎬 影片模型：Seedance、Veo、MiniMax H3、Kling、Grok 等；<br>
+🎙️ 語音能力：Whisper、TTS 等。從文案、出圖、改圖，到影片生成與配音<br>
+🎁新使用者註冊即送體驗額度，可以檢測模型能力。站內有人工客服值守！<br>
+👉香港正規企業營運 穩定供應 全綠滿血 不降智 提供發票
 
 </td>
 </tr>

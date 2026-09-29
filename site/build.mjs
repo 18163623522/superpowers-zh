@@ -258,14 +258,19 @@ const SPONSORS = [
       zht: '88API Token 聚合平台 —— 聚合語言、編程、圖片、影片與語音模型的一站式 AI API 平台',
     },
     desc: {
-      zh: '聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等语言与编程模型，以及 GPT-Image、Gemini、Grok 图片模型，Seedance、Veo、MiniMax H3、Kling、Grok 视频模型和 Whisper、TTS 等语音能力，覆盖文案、出图、改图、视频生成与配音。香港正规企业运营，稳定供应，全绿满血、不降智，可提供发票，站内有人工客服值守。',
-      en: 'One API platform for GPT, Claude, Gemini, Grok, DeepSeek, Kimi and GLM language and coding models; GPT-Image, Gemini and Grok image models; Seedance, Veo, MiniMax H3, Kling and Grok video models; plus Whisper, TTS and other speech capabilities. Covers copywriting, image generation and editing, video generation and voice-over. Operated by a registered Hong Kong company with stable supply, full-capability model access, invoicing and live human support.',
-      zht: '聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等語言與編程模型，以及 GPT-Image、Gemini、Grok 圖片模型，Seedance、Veo、MiniMax H3、Kling、Grok 影片模型和 Whisper、TTS 等語音能力，涵蓋文案、出圖、改圖、影片生成與配音。由香港正規企業營運，穩定供應，全綠滿血、不降智，可提供發票，站內有人工客服值守。',
+      zh: '🧠 聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等语言与编程模型；\n🎨 图片模型：GPT-Image、Gemini、Grok 等；\n🎬 视频模型：Seedance、Veo、MiniMax H3、Kling、Grok 等；\n🎙️ 语音能力：Whisper、TTS 等。从文案、出图、改图，到视频生成与配音',
+      en: '🧠 GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and other language and coding models;\n🎨 Image models: GPT-Image, Gemini, Grok and more;\n🎬 Video models: Seedance, Veo, MiniMax H3, Kling, Grok and more;\n🎙️ Speech: Whisper, TTS and more—from copywriting, image generation and editing to video generation and voice-over',
+      zht: '🧠 聚合 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等語言與編程模型；\n🎨 圖片模型：GPT-Image、Gemini、Grok 等；\n🎬 影片模型：Seedance、Veo、MiniMax H3、Kling、Grok 等；\n🎙️ 語音能力：Whisper、TTS 等。從文案、出圖、改圖，到影片生成與配音',
     },
     perk: {
-      zh: '🎁 新用户注册送体验额度，可用于检测模型能力',
-      en: '🎁 New users receive trial credit to evaluate model capabilities',
-      zht: '🎁 新使用者註冊即送體驗額度，可用於檢測模型能力',
+      zh: '🎁新用户注册送体验额度，可以检测模型能力。站内有人工客服值守！',
+      en: '🎁New users receive trial credit to evaluate model capabilities. Live human support is available!',
+      zht: '🎁新使用者註冊即送體驗額度，可以檢測模型能力。站內有人工客服值守！',
+    },
+    note: {
+      zh: '👉香港正规企业运营 稳定供应 全绿满血 不降智 提供发票',
+      en: '👉Operated by a registered Hong Kong company · Stable supply · Full-capability models · No quality reduction · Invoices available',
+      zht: '👉香港正規企業營運 穩定供應 全綠滿血 不降智 提供發票',
     },
     perkShort: {
       zh: '新用户注册送体验额度',
@@ -1194,6 +1199,7 @@ function renderSponsors(lang) {
       <p class="sc-desc">${esc(s.desc[lang])}</p>
       <button class="sc-toggle" type="button" aria-expanded="false" hidden>${esc(sp.expand)}</button>
       <p class="sc-perk">${esc(s.perk[lang])}</p>
+      ${s.note ? `<p class="sc-note">${esc(s.note[lang])}</p>` : ''}
       <a class="sc-go" href="${esc(s.url)}" target="_blank" rel="sponsored nofollow noopener">${esc(sp.goto)}</a>
     </article>`).join('');
 
