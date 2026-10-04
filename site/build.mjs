@@ -216,23 +216,29 @@ const SPONSORS = [
       en: 'APINEBULA — enterprise AI aggregation platform with one API for Claude, GPT, Gemini and other leading models, from 10% of list price',
       zht: 'APINEBULA —— 企業級 AI 聚合平台，一個介面接入 Claude、GPT、Gemini 等全球頂尖模型，價格低至 1 折',
     },
-    // 旗舰卡按赞助商原文的三条要点分段展示（常规卡才用整段 desc）。
-    // 压成一整段会把人家文案的骨架揉掉，也不好扫读 —— 付费展位按原结构呈现。
+    desc: {
+      zh: '感谢 APINEBULA 大力赞助本项目！APINEBULA 是银河录像局推出的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户稳定提供高可用、高保真的大模型 API 接入服务。',
+      en: 'Thanks to APINEBULA for generously sponsoring this project. APINEBULA is an enterprise AI aggregation platform created by Galaxy Video Bureau. Backed by large-platform resources, it provides developers, teams and enterprises with stable, high-availability, high-fidelity large-model API access.',
+      zht: '感謝 APINEBULA 大力贊助本專案！APINEBULA 是銀河錄像局推出的企業級 AI 聚合平台，背靠大型平台資源，面向開發者、團隊與企業使用者穩定提供高可用、高保真的大型模型 API 接入服務。',
+    },
     points: {
       zh: [
-        { icon: '🌐', t: '一个接口聚合顶尖模型', d: '聚合 Claude、GPT、Gemini 等主流满血模型，以标准化 API 一次对接全球顶尖 AI 能力。' },
-        { icon: '🛡️', t: '企业级稳定服务', d: '背靠大平台资源，面向开发者、团队与企业用户，稳定提供高可用、高保真的大模型 API 接入服务。' },
-        { icon: '💼', t: '成本与企业支持兼顾', d: '主流模型价格低至 1 折，支持正式合同、对公打款与开具服务发票，适合 AI 编程、Agent 开发和业务系统集成。' },
+        { icon: '🌐', t: '全球模型聚合', d: '平台聚合 Claude、GPT、Gemini 等全球主流满血模型，一个接口接入全球顶尖 AI 模型。' },
+        { icon: '💰', t: '价格低至 1 折起', d: '满血模型统一接入，大幅优化使用成本。' },
+        { icon: '🏢', t: '企业级服务支持', d: '支持企业级高并发、正式合同、对公打款与开具服务发票。' },
+        { icon: '🧩', t: '覆盖多种应用场景', d: '适合 AI 编程、Agent 开发、业务系统集成等多个场景。' },
       ],
       en: [
-        { icon: '🌐', t: 'Leading models through one API', d: 'Access full-capability Claude, GPT, Gemini and other leading global models through one standardized API.' },
-        { icon: '🛡️', t: 'Enterprise-grade reliability', d: 'Backed by large-platform resources, APINEBULA provides developers, teams and enterprises with stable, high-availability, high-fidelity model access.' },
-        { icon: '💼', t: 'Lower costs with business support', d: 'Mainstream models from 10% of list price, with formal contracts, corporate payments and service invoices for AI coding, agent development and system integration.' },
+        { icon: '🌐', t: 'Global model aggregation', d: 'Access full-capability Claude, GPT, Gemini and other leading global models through one API.' },
+        { icon: '💰', t: 'From 10% of list price', d: 'Unified access to full-capability models with substantially lower costs.' },
+        { icon: '🏢', t: 'Enterprise-grade support', d: 'Enterprise concurrency, formal contracts, corporate payments and service invoices.' },
+        { icon: '🧩', t: 'Built for multiple use cases', d: 'Ideal for AI coding, agent development, business-system integration and more.' },
       ],
       zht: [
-        { icon: '🌐', t: '一個介面聚合頂尖模型', d: '聚合 Claude、GPT、Gemini 等主流滿血模型，以標準化 API 一次對接全球頂尖 AI 能力。' },
-        { icon: '🛡️', t: '企業級穩定服務', d: '背靠大型平台資源，面向開發者、團隊與企業使用者，穩定提供高可用、高保真的大型模型 API 接入服務。' },
-        { icon: '💼', t: '兼顧成本與企業支援', d: '主流模型價格低至 1 折，支援正式合約、對公付款與開具服務發票，適合 AI 編程、Agent 開發和業務系統整合。' },
+        { icon: '🌐', t: '全球模型聚合', d: '平台聚合 Claude、GPT、Gemini 等全球主流滿血模型，一個介面接入全球頂尖 AI 模型。' },
+        { icon: '💰', t: '價格低至 1 折起', d: '滿血模型統一接入，大幅優化使用成本。' },
+        { icon: '🏢', t: '企業級服務支援', d: '支援企業級高併發、正式合約、對公付款與開具服務發票。' },
+        { icon: '🧩', t: '涵蓋多種應用場景', d: '適合 AI 編程、Agent 開發、業務系統整合等多個場景。' },
       ],
     },
     perk: {
@@ -462,7 +468,7 @@ assertToolDocs();
 
 function assertSponsors() {
   for (const s of SPONSORS) {
-    const need = s.tier === 'flagship' ? ['img', 'w', 'h', 'points'] : ['logo', 'desc'];
+    const need = s.tier === 'flagship' ? ['img', 'w', 'h', 'desc', 'points'] : ['logo', 'desc'];
     const missing = need.filter(k => !s[k]);
     if (missing.length) {
       throw new Error(`赞助商 ${s.name?.zh || '?'}（tier: ${s.tier}）缺字段：${missing.join(', ')}`);
@@ -480,14 +486,13 @@ function assertSponsors() {
       }
     }
     const textKeys = s.tier === 'flagship'
-      ? ['name', 'tagline', 'alt', 'perk', 'perkShort']
+      ? ['name', 'tagline', 'alt', 'desc', 'perk', 'perkShort']
       : ['name', 'alt', 'desc', 'perk', 'perkShort'];   // 常规卡不展示 tagline
     for (const k of textKeys) {
       for (const lang of ['zh', 'en', 'zht']) {
         if (!s[k]?.[lang]) throw new Error(`赞助商 ${s.name?.zh || '?'} 的 ${k} 缺 ${lang} 文案`);
       }
     }
-    // 旗舰的要点分段：三语条数必须一致，少一条就是某个语言漏翻了
     if (s.tier === 'flagship') {
       const counts = ['zh', 'en', 'zht'].map(l => s.points?.[l]?.length || 0);
       if (counts.some(n => n === 0) || new Set(counts).size > 1) {
@@ -1206,6 +1211,7 @@ function renderSponsors(lang) {
       <div class="flag-body">
         <h3>${esc(s.name[lang])}</h3>
         <p class="flag-tag">${esc(s.tagline[lang])}</p>
+        <p class="flag-desc">${esc(s.desc[lang])}</p>
         <ul class="flag-points">${s.points[lang].map(pt => `
           <li><span class="fp-icon" aria-hidden="true">${pt.icon}</span><div><b>${esc(pt.t)}</b><span>${esc(pt.d)}</span></div></li>`).join('')}
         </ul>
