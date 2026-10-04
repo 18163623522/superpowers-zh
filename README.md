@@ -29,20 +29,20 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers) 
 ## ❤️ 赞助商 &nbsp;<sub>🙏 想出现在这里？联系 **jnMetaCode@qq.com** 赞助</sub>
 
 <p align="center">
-  <a href="https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link">
-    <img src="assets/sponsors/infistar.jpg" alt="Infistar.cc 无限星河 —— 全模型 API 服务，一个 API Key 接入 Claude、ChatGPT、Gemini、Kimi、GLM、DeepSeek，价格低至官方渠道 1 折" width="100%">
+  <a href="https://apinebula.ai/1Axi9F">
+    <img src="assets/sponsors/apinebula.png" alt="APINEBULA —— 企业级 AI 聚合平台，一个接口接入 Claude、GPT、Gemini 等全球顶尖模型，价格低至 1 折" width="100%">
   </a>
 </p>
 
-**superpowers-zh × [Infistar.cc 无限星河](https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link)｜全模型 API · 为 AI 编程注入稳定动力**
+**superpowers-zh × [APINEBULA](https://apinebula.ai/1Axi9F)｜一个接口，接入全球顶尖 AI 模型**
 
-感谢 Infistar.cc 无限星河 赞助并为 superpowers-zh 用户提供模型服务支持！
+感谢 APINEBULA 大力赞助本项目！APINEBULA 是银河录像局推出的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户，稳定提供高可用、高保真的大模型 API 接入服务。
 
-- ⚡ **稳定承载复杂开发任务**：提供高可用模型通道与多节点冗余，价格低至官方渠道 **1 折**，稳定支持需求分析、方案规划、TDD、调试及代码审查等长任务。
-- 🧠 **一个 API Key 接入主流模型**：全面支持 Claude、ChatGPT、Gemini、Kimi、GLM、DeepSeek 等模型，适配 Claude Code、Codex、Cursor、Windsurf、Kiro 等 AI 编程工具。
-- 🛠️ **赋能完整开发工作流**：结合 superpowers-zh 的系统化 Skills，让 AI 更好地完成头脑风暴、计划执行、问题排查和质量检查。
+- 🌐 **一个接口聚合顶尖模型**：聚合 Claude、GPT、Gemini 等主流满血模型，以标准化 API 一次对接全球顶尖 AI 能力。
+- 💰 **主流模型价格低至 1 折**：统一接入、成本可控，适合 AI 编程、Agent 开发、业务系统集成等多种场景。
+- 💼 **完善的企业服务支持**：支持正式合同、对公打款与开具服务发票，满足团队与企业采购需求。
 
-🎁 **superpowers-zh 用户专属福利：通过[此链接](https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link)注册并完成首次调用，即可领取 5 美元等值测试额度！**
+🎁 **通过[此链接](https://apinebula.ai/1Axi9F)注册，充值时填写优惠码 `super` 可享 9 折优惠！**
 
 <hr>
 
@@ -132,6 +132,20 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers) 
 <td width="75%" valign="middle">
 
 感谢 [优云智算](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_superpowers-zh) 赞助本项目！优云智算是 UCloud 旗下 AI 云平台，主打包月、按次的高性价比国模 Agent Plan 套餐，支持 GLM-5.2，低至 **49 元/月**起。最新上线 H3 视频生成套餐包，768P 低至 8 分/秒，支持 2K 画质，最长 30s 视频生成。支持企业高并发、7×24 技术支持、自助开票。🎁 **通过[此链接](https://passport.compshare.cn/register?referral_code=ETD3L5JBM13CtKARkMORot&ytag=GPU_YY_YX_git_superpowers-zh)注册的用户，可得免费 5 元平台体验金！**
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td width="25%">
+  <a href="https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link">
+    <img src="assets/sponsors/infistar.jpg" alt="Infistar.cc 无限星河 —— 全模型 API 服务，一个 API Key 接入 Claude、ChatGPT、Gemini、Kimi、GLM、DeepSeek，价格低至官方渠道 1 折" width="100%">
+  </a>
+</td>
+<td width="75%" valign="middle">
+
+感谢 [Infistar.cc 无限星河](https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link) 赞助并为 superpowers-zh 用户提供模型服务支持！无限星河提供高可用模型通道与多节点冗余，一个 API Key 接入 Claude、ChatGPT、Gemini、Kimi、GLM、DeepSeek 等模型，价格低至官方渠道 **1 折**，并适配 Claude Code、Codex、Cursor、Windsurf、Kiro 等 AI 编程工具。🎁 **通过[此链接](https://www.infistar.cc/register?aff=PDVTM2VS&ref_source=link)注册并完成首次调用，即可领取 5 美元等值测试额度！**
 
 </td>
 </tr>
