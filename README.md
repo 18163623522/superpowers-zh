@@ -34,16 +34,9 @@ Chinese community edition of [superpowers](https://github.com/obra/superpowers) 
   </a>
 </p>
 
-**superpowers-zh × [APINEBULA](https://apinebula.ai/1Axi9F)｜一个接口，接入全球顶尖 AI 模型**
+感谢 [APINEBULA](https://apinebula.ai/1Axi9F) 大屏赞助本项目！APINEBULA 是银河录像局旗下的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户提供稳定、高性价比的大模型 API 接入服务。平台聚合 Claude、GPT、Gemini 等主流满血模型，一个接口接入全球顶尖 AI 大模型，各大模型价格低至 1 折起，支持企业级高并发、正式合同、对公打款与开票服务，适合 AI 编程、Agent 开发、业务系统集成等多种场景！
 
-感谢 APINEBULA 大力赞助本项目！APINEBULA 是银河录像局推出的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户稳定提供高可用、高保真的大模型 API 接入服务。
-
-- 🌐 **全球模型聚合**：平台聚合 Claude、GPT、Gemini 等全球主流满血模型，一个接口接入全球顶尖 AI 模型。
-- 💰 **价格低至 1 折起**：满血模型统一接入，大幅优化使用成本。
-- 🏢 **企业级服务支持**：支持企业级高并发、正式合同、对公打款与开具服务发票。
-- 🧩 **覆盖多种应用场景**：适合 AI 编程、Agent 开发、业务系统集成等多个场景。
-
-🎁 **通过[此链接](https://apinebula.ai/1Axi9F)注册，充值时填写优惠码 `super` 可享 9 折优惠！**
+🎁 **通过[此链接](https://apinebula.ai/1Axi9F)注册并在充值时填写 `agent` 优惠码可享 9 折优惠！**
 
 <hr>
 

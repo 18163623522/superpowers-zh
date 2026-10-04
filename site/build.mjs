@@ -203,7 +203,7 @@ const SPONSORS = [
     // 旗舰位：赞助商页顶部整块大图 + 两版 README 顶部优先展示。
     // 旗舰卡读 img（大 banner），不读 logo —— 见下方 assertSponsors 的校验。
     tier: 'flagship',
-    img: 'apinebula.png', w: 1269, h: 337, code: 'super',
+    img: 'apinebula.png', w: 1269, h: 337, code: 'agent',
     url: 'https://apinebula.ai/1Axi9F',
     name: { zh: 'APINEBULA', en: 'APINEBULA', zht: 'APINEBULA' },
     tagline: {
@@ -217,39 +217,19 @@ const SPONSORS = [
       zht: 'APINEBULA —— 企業級 AI 聚合平台，一個介面接入 Claude、GPT、Gemini 等全球頂尖模型，價格低至 1 折',
     },
     desc: {
-      zh: '感谢 APINEBULA 大力赞助本项目！APINEBULA 是银河录像局推出的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户稳定提供高可用、高保真的大模型 API 接入服务。',
-      en: 'Thanks to APINEBULA for generously sponsoring this project. APINEBULA is an enterprise AI aggregation platform created by Galaxy Video Bureau. Backed by large-platform resources, it provides developers, teams and enterprises with stable, high-availability, high-fidelity large-model API access.',
-      zht: '感謝 APINEBULA 大力贊助本專案！APINEBULA 是銀河錄像局推出的企業級 AI 聚合平台，背靠大型平台資源，面向開發者、團隊與企業使用者穩定提供高可用、高保真的大型模型 API 接入服務。',
-    },
-    points: {
-      zh: [
-        { icon: '🌐', t: '全球模型聚合', d: '平台聚合 Claude、GPT、Gemini 等全球主流满血模型，一个接口接入全球顶尖 AI 模型。' },
-        { icon: '💰', t: '价格低至 1 折起', d: '满血模型统一接入，大幅优化使用成本。' },
-        { icon: '🏢', t: '企业级服务支持', d: '支持企业级高并发、正式合同、对公打款与开具服务发票。' },
-        { icon: '🧩', t: '覆盖多种应用场景', d: '适合 AI 编程、Agent 开发、业务系统集成等多个场景。' },
-      ],
-      en: [
-        { icon: '🌐', t: 'Global model aggregation', d: 'Access full-capability Claude, GPT, Gemini and other leading global models through one API.' },
-        { icon: '💰', t: 'From 10% of list price', d: 'Unified access to full-capability models with substantially lower costs.' },
-        { icon: '🏢', t: 'Enterprise-grade support', d: 'Enterprise concurrency, formal contracts, corporate payments and service invoices.' },
-        { icon: '🧩', t: 'Built for multiple use cases', d: 'Ideal for AI coding, agent development, business-system integration and more.' },
-      ],
-      zht: [
-        { icon: '🌐', t: '全球模型聚合', d: '平台聚合 Claude、GPT、Gemini 等全球主流滿血模型，一個介面接入全球頂尖 AI 模型。' },
-        { icon: '💰', t: '價格低至 1 折起', d: '滿血模型統一接入，大幅優化使用成本。' },
-        { icon: '🏢', t: '企業級服務支援', d: '支援企業級高併發、正式合約、對公付款與開具服務發票。' },
-        { icon: '🧩', t: '涵蓋多種應用場景', d: '適合 AI 編程、Agent 開發、業務系統整合等多個場景。' },
-      ],
+      zh: '感谢 APINEBULA 大屏赞助本项目！APINEBULA 是银河录像局旗下的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户提供稳定、高性价比的大模型 API 接入服务。平台聚合 Claude、GPT、Gemini 等主流满血模型，一个接口接入全球顶尖 AI 大模型，各大模型价格低至 1 折起，支持企业级高并发、正式合同、对公打款与开票服务，适合 AI 编程、Agent 开发、业务系统集成等多种场景！',
+      en: 'Thanks to APINEBULA for its banner sponsorship of this project. APINEBULA is an enterprise AI aggregation platform from Galaxy Video Bureau. Backed by large-platform resources, it gives developers, teams and enterprises stable, cost-effective large-model API access. The platform aggregates full-capability Claude, GPT, Gemini and other leading models through one API, with pricing from 10% of list price. It supports enterprise concurrency, formal contracts, corporate payments and invoicing for AI coding, agent development, business-system integration and more.',
+      zht: '感謝 APINEBULA 大屏贊助本專案！APINEBULA 是銀河錄像局旗下的企業級 AI 聚合平台，背靠大型平台資源，面向開發者、團隊與企業使用者提供穩定、高性價比的大型模型 API 接入服務。平台聚合 Claude、GPT、Gemini 等主流滿血模型，一個介面接入全球頂尖 AI 大型模型，各大模型價格低至 1 折起，支援企業級高併發、正式合約、對公付款與開票服務，適合 AI 編程、Agent 開發、業務系統整合等多種場景！',
     },
     perk: {
-      zh: '🎁 通过本页链接注册，充值时填写优惠码 super 可享 9 折优惠',
-      en: '🎁 Sign up via this link and enter code super when topping up for 10% off',
-      zht: '🎁 透過本頁連結註冊，儲值時填寫優惠碼 super 可享 9 折優惠',
+      zh: '🎁 通过本页链接注册并在充值时填写优惠码 agent，可享 9 折优惠',
+      en: '🎁 Sign up via this link and enter code agent when topping up for 10% off',
+      zht: '🎁 透過本頁連結註冊並在儲值時填寫優惠碼 agent，可享 9 折優惠',
     },
     perkShort: {
-      zh: '充值时使用优惠码 super 享 9 折',
-      en: '10% off top-ups with code super',
-      zht: '儲值時使用優惠碼 super 享 9 折',
+      zh: '充值时使用优惠码 agent 享 9 折',
+      en: '10% off top-ups with code agent',
+      zht: '儲值時使用優惠碼 agent 享 9 折',
     },
   },
   {
@@ -468,7 +448,7 @@ assertToolDocs();
 
 function assertSponsors() {
   for (const s of SPONSORS) {
-    const need = s.tier === 'flagship' ? ['img', 'w', 'h', 'desc', 'points'] : ['logo', 'desc'];
+    const need = s.tier === 'flagship' ? ['img', 'w', 'h', 'desc'] : ['logo', 'desc'];
     const missing = need.filter(k => !s[k]);
     if (missing.length) {
       throw new Error(`赞助商 ${s.name?.zh || '?'}（tier: ${s.tier}）缺字段：${missing.join(', ')}`);
@@ -491,17 +471,6 @@ function assertSponsors() {
     for (const k of textKeys) {
       for (const lang of ['zh', 'en', 'zht']) {
         if (!s[k]?.[lang]) throw new Error(`赞助商 ${s.name?.zh || '?'} 的 ${k} 缺 ${lang} 文案`);
-      }
-    }
-    if (s.tier === 'flagship') {
-      const counts = ['zh', 'en', 'zht'].map(l => s.points?.[l]?.length || 0);
-      if (counts.some(n => n === 0) || new Set(counts).size > 1) {
-        throw new Error(`赞助商 ${s.name?.zh || '?'} 的 points 三语条数不一致：zh/en/zht = ${counts.join('/')}`);
-      }
-      for (const l of ['zh', 'en', 'zht']) {
-        for (const pt of s.points[l]) {
-          if (!pt.icon || !pt.t || !pt.d) throw new Error(`赞助商 ${s.name?.zh || '?'} 的 ${l} 要点缺 icon/t/d`);
-        }
       }
     }
   }
@@ -1212,9 +1181,6 @@ function renderSponsors(lang) {
         <h3>${esc(s.name[lang])}</h3>
         <p class="flag-tag">${esc(s.tagline[lang])}</p>
         <p class="flag-desc">${esc(s.desc[lang])}</p>
-        <ul class="flag-points">${s.points[lang].map(pt => `
-          <li><span class="fp-icon" aria-hidden="true">${pt.icon}</span><div><b>${esc(pt.t)}</b><span>${esc(pt.d)}</span></div></li>`).join('')}
-        </ul>
         <div class="flag-foot">
           <span class="sponsor-perk">${esc(s.perk[lang])}</span>
           <a class="btn btn-primary" href="${esc(s.url)}" target="_blank" rel="sponsored nofollow noopener">${esc(sp.visitFlag)}</a>
